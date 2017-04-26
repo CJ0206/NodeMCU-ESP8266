@@ -2,14 +2,17 @@
 
 This paragraph is designed to control a 4 channel relay using a web interface, each relay can be turned on or off using the buttons on the web interface.
 
-## Getting Started You Will Need
+## Getting Started
 
-ESPlorer (https://esp8266.ru/esplorer/)
+### Download
 
-The latest firmware (https://github.com/nodemcu/nodemcu-firmware/releases)
-Upade the firmware using the NodeMCU flasher (https://github.com/nodemcu/nodemcu-flasher)
+[ESPlorer](https://esp8266.ru/esplorer/)
 
-### Prerequisites
+The [latest firmware](https://github.com/nodemcu/nodemcu-firmware/releases)
+
+[NodeMCU flasher](https://github.com/nodemcu/nodemcu-flasher)
+
+### Updating The Firmware
 
 Download the latest firmware from the link above
 
@@ -26,45 +29,29 @@ Navigate to Operation and select the COM port your NodeMCU is connected to, then
 
 A small tick will appear in the bottom left if everything has gone according to plan, if not, try googling for a solution.
 
-### Prepairing The Hardware
+### Hardware Wiring Diagram
+  
+![Wiring  Diagram](https://github.com/CJ0206/NodeMCU-ESP8266-RelayControl/blob/master/Circuit%20Diagram.png?raw=true)
 
-Use a jumper cable between:
+## Uploading The Code
 
-  VCC and 3.3V
-  
-  IN1 and GPIO5
-  
-  IN2 and GPIO4
-  
-  IN3 and GPIO0
-  
-  IN4 and GPIO2
-  
-  GND and GND
-
-## Installing
-
-Download ESPlorer from the link above.
+Download ESPlorer from the link above and open the program.
 
 Select the COM prot from the dropdown menu on the right.
 
-Click open to start communicating with the NodeMCU.
+Click open in the right panel to start communicating with the NodeMCU.
 
-Paste the code from init.lua into the left panel.
+Paste the code from [init.lua](init.lua) into the left panel.
 
 Click "Save to ESP"
 
 
 Navigate to your NodeMCU's IP and you should be faced with the relay controls.
 
-## Versioning
+## Version
 
-V1 
+* V1 
 
-## Authors
+## Author
 
 **Christian James-Watkins**
-
-## License
-
-Feel free to tinker, no licences are attached to this work
