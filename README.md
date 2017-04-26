@@ -63,7 +63,7 @@ V1
 
 ## Authors
 
-* **Christian James-Watkins** - *Initial work*
+**Christian James-Watkins**
 
 ## License
 
