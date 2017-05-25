@@ -1,15 +1,13 @@
 # Relay Control Using NodeMCU
 
-This paragraph is designed to control a 4 channel relay using a web interface, each relay can be turned on or off using the buttons on the web interface.
+This program is designed to control a 4 channel relay using a web interface, each relay can be turned on or off using the buttons on the web interface.
 
 ## Getting Started
 
 ### Download
 
 [ESPlorer](https://esp8266.ru/esplorer/)
-
-The [latest firmware](https://github.com/nodemcu/nodemcu-firmware/releases)
-
+[Latest firmware](https://github.com/nodemcu/nodemcu-firmware/releases)
 [NodeMCU flasher](https://github.com/nodemcu/nodemcu-flasher)
 
 ### Updating The Firmware
@@ -47,11 +45,3 @@ Click "Save to ESP"
 
 
 Navigate to your NodeMCU's IP and you should be faced with the relay controls.
-
-## Version
-
-* V1 
-
-## Author
-
-**Christian James-Watkins**
