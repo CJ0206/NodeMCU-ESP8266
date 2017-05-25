@@ -7,7 +7,9 @@ This program is designed to control a 4 channel relay using a web interface, eac
 ### Download
 
 [ESPlorer](https://esp8266.ru/esplorer/)
+
 [Latest firmware](https://github.com/nodemcu/nodemcu-firmware/releases)
+
 [NodeMCU flasher](https://github.com/nodemcu/nodemcu-flasher)
 
 ### Updating The Firmware
